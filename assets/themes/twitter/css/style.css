@@ -27,6 +27,7 @@ html,body{padding-top:60px}
 	margin-top:0;
 	border-bottom:1px solid #CDCDCD;
 }
+.icon-rss{background: url(../bootstrap/img/rss-icons.png) no-repeat 0 0;width: 16px;}
 
 #home .row{margin-bottom:25px}
 footer p{text-align:right}
