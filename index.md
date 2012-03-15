@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home Page
+title: No Title
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -10,7 +10,7 @@ tagline: Supporting tagline
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 </div>
 <div class="row">
-	<div class="span11">
+	<div class="span10">
 	{% if post.excerpt %}
 		<p>{{post.excerpt}}</p>
 		<p class="pull-right"><a href="{{ post.url }}">阅读全文 &raquo; </a></p>
@@ -18,7 +18,7 @@ tagline: Supporting tagline
 		{{ post.content }}
 	{% endif %}
 	</div>
-	<div class="span1">
+	<div class="span2">
 	<span class="label label-info">{{ post.date | date:"%b %e, %Y" }}</span>
 	{% unless post.tags == empty %}
     <ul class="tag_box">

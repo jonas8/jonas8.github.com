@@ -8,8 +8,7 @@ tags: [php, pear]
 tagline: 
 ---
 Mac Os X Lion 上安装PEAR,执行以下命令
-	
-	sudo php /usr/lib/php/install-pear-nozlib.phar
-	sudo pear config-set php_ini /private/etc/php.ini
-	sudo pecl config-set php_ini /private/etc/php.ini
-	sudo pear upgrade-all 
+{% sudo php /usr/lib/php/install-pear-nozlib.phar
+sudo pear config-set php_ini /private/etc/php.ini
+sudo pecl config-set php_ini /private/etc/php.ini
+sudo pear upgrade-all %}
