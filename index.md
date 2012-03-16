@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 <section id="home">
-{% for post in site.posts limit:10%}
+{% for post in site.posts limit:10 %}
 <div class="page-header">
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 </div>
