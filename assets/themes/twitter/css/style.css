@@ -85,8 +85,9 @@ code, pre{
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
             border-radius: 3px;
-			padding:1em;
+			padding:.5em 1em;
 			font-size:16px;
+			display:block;
 }
 
 .highlight  { background: #ffffff; }
