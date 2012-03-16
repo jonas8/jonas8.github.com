@@ -35,19 +35,19 @@ footer p{text-align:right}
 
 /* tag_box ======================================================== */
 
-.tag_box {
+.tag_box,.category_box {
 	list-style:none;
 	margin:0;
 	padding:5px 0 ;
 	overflow:hidden;
 }
-.tag_box li {
+.tag_box li,.category_box li {
 	line-height:28px;
 }
-.tag_box.inline li {
+.tag_box.inline li,.category_box.inline li {
 	float:left;
 }
-.tag_box a {
+.tag_box a ,.category_box a{
 	padding: 3px 6px;
 	margin: 2px;
 	background: #eee;
@@ -55,7 +55,7 @@ footer p{text-align:right}
 	border-radius: 3px;
 	text-decoration:none;
 }
-.tag_box a span{
+.tag_box a span,.category_box a span{
 	vertical-align:super;
 	font-size:0.8em;
 }
