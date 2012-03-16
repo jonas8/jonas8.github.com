@@ -47,18 +47,35 @@ footer p{text-align:right}
 .tag_box.inline li,.category_box.inline li {
 	float:left;
 }
-.tag_box a ,.category_box a{
+.tag_box a ,.category_box a,time,time:hover{
 	padding: 3px 6px;
 	margin: 2px;
-	background: #eee;
-	color:#005F6B;
-	border-radius: 3px;
+	background: #FDFDFA;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
 	text-decoration:none;
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,.15);
+       -moz-box-shadow: 0 0 1px rgba(0,0,0,.15);
+            box-shadow: 0 0 1px rgba(0,0,0,.15);
+	
+}
+time,time:hover{
+			font-size:18px;
+			margin:0;
+			color:#090000;
+		    
+			
 }
 .tag_box a span,.category_box a span{
 	vertical-align:super;
 	font-size:0.8em;
 }
+.tag_box a i,.category_box a i,time i.icon-time{
+	margin-top:4px;
+}
+
+.text_right{text-align:right}
 .tag_box a.active {
 	background:#57A957;
 	border:1px solid #4C964D;

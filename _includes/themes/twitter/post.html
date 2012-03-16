@@ -25,8 +25,8 @@
     {% include JB/comments %}
   </div>
   
-  <div class="span2">
-  	<span class="label label-info">{{ page.date | date:"%b %e, %Y" }}</span>
+  <div class="span2 text_right">
+  	<time><i class="icon-time"></i> {{ page.date | date:"%b %e, %Y" }}</time>
   	{% unless page.tags == empty %}
       <ul class="tag_box">
       {% assign tags_list = page.tags %}
