@@ -81,11 +81,12 @@ time,time:hover{
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-.navbar-search{margin-top:3px}
+.navbar-search{margin-top:3px;}
 .navbar .search-query, .navbar .search-query:focus, .navbar-search .search-query.focused{
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
+			color:#090000;
 	height:18px;padding:3px 6px;border:1px solid #D4D4D4}
 code, pre{
     -webkit-border-radius: 3px;
@@ -101,7 +102,7 @@ code, pre{
             border-radius: 6px;
 	z-index:1100
 }
-
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover{background:#FDFFDF}
 .highlight  { background: #ffffff; }
 .highlight .c ,.highlight .lineno { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
