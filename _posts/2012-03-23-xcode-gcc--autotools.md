@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "xcode gcc autotools问题"
+title: "xcode gcc和autotools的问题"
 category: xcode
 tags: [xcode, gcc, autotools]
 ---
