@@ -2,7 +2,7 @@
 layout: post
 title: "mac os x上创建Windows 8可启动U盘"
 category: others
-tags: [mac,windows 8]
+tags: [mac, windows 8]
 ---
 {% include JB/setup %}
 需要u盘支持系统启动。
